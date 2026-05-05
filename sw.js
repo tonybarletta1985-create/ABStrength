@@ -1,8 +1,9 @@
-const CACHE = 'ab-strength-v1';
+const CACHE = 'ab-strength-v2';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json'
+  '/ABStrength/',
+  '/ABStrength/index.html',
+  '/ABStrength/manifest.json',
+  '/ABStrength/sw.js'
 ];
 
 self.addEventListener('install', e => {
